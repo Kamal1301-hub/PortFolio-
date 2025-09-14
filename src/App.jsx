@@ -13,10 +13,9 @@ function App() {
   return (
     <div>
         <Header />
-         
         <Routes>
-          <Route path='/About' element={<About/>}/>
           <Route path='/Home' element={<Home/>} />
+          <Route path='/About' element={<About/>}/>
           <Route path="/skills" element={<Skills />} />
           <Route path='/Projects' element={<Projects/>}  />
           <Route path='/Contact' element={<Contact/>} />
