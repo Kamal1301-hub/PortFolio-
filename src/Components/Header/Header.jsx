@@ -12,7 +12,7 @@ const Header = () => {
         <div className="hidden w-full md:block md:w-auto">
           <ul className="font-medium flex flex-col md:flex-row md:space-x-8">
             <li>
-              <Link to="/Home" className="block py-2 px-3 text-gray-900 hover:text-blue-700 dark:text-white">Home</Link>
+              <Link to="/" className="block py-2 px-3 text-gray-900 hover:text-blue-700 dark:text-white">Home</Link>
             </li>
             <li>
               <Link to="/skills" className="block py-2 px-3 text-gray-900 hover:text-blue-700 dark:text-white">Skills</Link>

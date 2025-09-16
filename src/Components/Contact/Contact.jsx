@@ -135,7 +135,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* FAQ Section */}
       <div className="mt-16 max-w-2xl mx-auto">
         <h3 className="text-2xl font-bold text-gray-700 mb-6 text-center">Frequently Asked Questions</h3>
         <div className="space-y-4">
